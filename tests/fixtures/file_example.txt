@@ -1,0 +1,2 @@
+user gold;3333;4444;test
+user platinum;1111;2222;asd
