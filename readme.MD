@@ -21,6 +21,7 @@
     - There are security issues like the posibility of SQL injections, security credentials harcoded in the code.
     - There are performance issues, we are doing 2 queries to database for each profile to notify.
     - There is a lot of repeated code, and anything is reusable.
+    - There is not validation to avoid a critical error in the process.
 
 
 

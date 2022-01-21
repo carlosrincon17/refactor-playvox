@@ -1,7 +1,9 @@
-from abc import ABC, abstractmethod
-from models import UserProfile
-from services.send_profile_notification_interface import ISendProfileNotificationService
+from src.models.user_profile import UserProfile
+from src.services.send_profile_notification_interface import ISendProfileNotificationService
 
+
+# Creating a controlled we can reuse the code to send notification to profiles from multiples places, like
+# other scritps, etc...
 class ProfileNotificationController:
 
     def __init__(
